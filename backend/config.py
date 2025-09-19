@@ -1,0 +1,4 @@
+import os
+
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+FILE_API_CLEANUP_TIMEOUT_SECONDS = 3600  # 1 hour
